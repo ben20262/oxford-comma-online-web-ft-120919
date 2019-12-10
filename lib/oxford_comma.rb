@@ -8,7 +8,7 @@ def oxford_comma(array)
         words = words + "," + word
       end
     end
-  elsif array.size == 2 
+  elsif array.size == 2
     array.join(" and ")
   else
     array.flatten
