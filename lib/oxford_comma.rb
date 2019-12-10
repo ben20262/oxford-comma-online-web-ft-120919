@@ -9,8 +9,9 @@ def oxford_comma(array)
       end
     end
   elsif array.size == 2
-    array.join(" and ")
+    words = array.join(" and ")
   else
-    array.flatten
+    words = array.flatten
   end
+  words
 end
