@@ -7,7 +7,7 @@ def oxford_comma(array)
       elsif word == array[0]
         words = word
       else
-        words = words + "," + word
+        words = words + ", " + word
       end
     end
   elsif array.size == 2
